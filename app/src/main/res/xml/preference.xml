@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Настройки">
+        <ListPreference
+            android:defaultValue="http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/mainnews.rss"
+            android:entries="@array/sources"
+            android:entryValues="@array/sources_values"
+            android:key="listOfSources"
+            android:title="Категория новостей" />
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/periods"
+            android:entryValues="@array/periods_values"
+            android:key="listOfPeriods"
+            android:title="Период обновления" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

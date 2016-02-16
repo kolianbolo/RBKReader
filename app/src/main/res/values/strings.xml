@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">RBK Reader</string>
+    <string name="wait">Please wait...</string>
+
+    <string name="list_title">Статьи</string>
+    <string name="settings_title">Настройки</string>
+
+    <string name="category_choice">Кате</string>
+
+    РБК(www.RBC.ru)
+    Главные новости
+    Все материалы
+    Новости политики
+    Новости экономики
+    Новости общества
+    Новости финансов
+    Новости бизнеса
+
+    <string-array name="sources">
+        <item>Главные новости</item>
+        <item>Все материалы</item>
+        <item>Новости политики</item>
+        <item>Новости экономики</item>
+        <item>Новости общества</item>
+        <item>Новости финансов</item>
+        <item>Новости бизнеса</item>
+    </string-array>
+    <string-array name="sources_values">
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/mainnews.rss</item>
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/news.rss</item>
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/politics.rss</item>
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/economics.rss</item>
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/society.rss</item>
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/finances.rss</item>
+        <item>http://static.feed.rbc.ru/rbc/internal/rss.rbc.ru/rbc.ru/business.rss</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+    </string-array>
+
+    <string-array name="periods_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+
+
+</resources>
